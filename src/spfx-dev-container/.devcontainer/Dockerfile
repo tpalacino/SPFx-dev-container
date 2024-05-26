@@ -1,0 +1,1 @@
+FROM m365pnp/spfx:${templateOption:imageVariant}

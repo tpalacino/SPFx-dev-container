@@ -1,0 +1,26 @@
+{
+	"name": "SPFx",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"forwardPorts": [
+		4321,
+		35729
+	],
+	"portsAttributes": {
+		"4321": {
+			"protocol": "https",
+			"label": "Manifest",
+			"onAutoForward": "silent",
+			"requireLocalPort": true
+		},
+		"35729": {
+			"protocol": "https",
+			"label": "LiveReload",
+			"onAutoForward": "silent",
+			"requireLocalPort": true
+		}
+	},
+	"postStartCommand": "bash .devcontainer/spfx-startup.sh",
+	"remoteUser": "node"
+}
