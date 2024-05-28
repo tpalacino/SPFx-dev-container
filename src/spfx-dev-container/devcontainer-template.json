@@ -1,6 +1,6 @@
 {
     "id": "spfx-dev-container",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "SPFx",
     "description": "A template for SharePoint Framework development.",
     "documentationURL": "https://github.com/devcontainers/template-starter/tree/main/src/hello",
