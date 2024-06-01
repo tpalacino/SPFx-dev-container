@@ -3,8 +3,8 @@
     "version": "1.0.2",
     "name": "SPFx",
     "description": "A template for SharePoint Framework development.",
-    "documentationURL": "https://github.com/devcontainers/template-starter/tree/main/src/hello",
-    "licenseURL": "https://github.com/devcontainers/template-starter/blob/main/LICENSE",
+    "documentationURL": "https://github.com/tpalacino/SPFx-dev-container/tree/main/src/spfx-dev-container",
+    "licenseURL": "https://github.com/tpalacino/SPFx-dev-container/blob/main/LICENSE",
     "options": {
         "version": {
             "type": "string",
