@@ -7,7 +7,7 @@ A template for SharePoint Framework development.
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| imageVariant | The version of SharePoint Framework the project will use.: | - | latest |
+| version | The version of SharePoint Framework the project will use: | string | latest |
 
 
 
