@@ -1,4 +1,3 @@
-FROM m365pnp/spfx:${templateOption:imageVariant}
+FROM m365pnp/spfx:${templateOption:version}
 
-COPY on-create.sh /bin/on-create.sh
 COPY on-attach.sh /bin/on-attach.sh

@@ -6,11 +6,10 @@
     "documentationURL": "https://github.com/devcontainers/template-starter/tree/main/src/hello",
     "licenseURL": "https://github.com/devcontainers/template-starter/blob/main/LICENSE",
     "options": {
-        "imageVariant": {
-            "type": "",
-            "description": "The version of SharePoint Framework the project will use.:",
+        "version": {
+            "type": "string",
+            "description": "The version of SharePoint Framework the project will use:",
             "proposals": [
-                "1.19",
                 "1.18.2",
                 "1.18.1",
                 "1.18",

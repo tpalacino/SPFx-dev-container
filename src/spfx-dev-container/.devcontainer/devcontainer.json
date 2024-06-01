@@ -21,7 +21,6 @@
 			"requireLocalPort": true
 		}
 	},
-	"postCreateCommand": "bash /bin/on-create.sh",
 	"postAttachCommand": "bash /bin/on-attach.sh",
 	"remoteUser": "node"
 }
