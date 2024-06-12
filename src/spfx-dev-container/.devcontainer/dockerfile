@@ -1,3 +1,0 @@
-FROM m365pnp/spfx:${templateOption:version}
-
-COPY on-attach.sh /bin/on-attach.sh
