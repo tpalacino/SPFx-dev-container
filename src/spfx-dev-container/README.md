@@ -7,9 +7,8 @@ A template for SharePoint Framework development.
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| name | The name of the container: | string | SPFx |
-| volume | The name of the volume: | string | spfx |
-| version | The version of SharePoint Framework the project will use: | string | latest |
+| name | The name of the container | string | SPFx |
+| version | The version of SharePoint Framework the project will use | string | latest |
 
 
 
