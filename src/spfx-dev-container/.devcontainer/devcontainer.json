@@ -1,27 +1,19 @@
 {
 	"name": "${templateOption:name}",
-	"image": "docker.io/m365pnp/spfx:${templateOption:version}",
-	"forwardPorts": [
-	  4321,
-	  35729
-	],
+	"image": "m365pnp/spfx:${templateOption:version}",
 	"portsAttributes": {
-	  "4321": {
-		"protocol": "https",
-		"label": "Manifest",
-		"onAutoForward": "silent",
-		"requireLocalPort": true
-	  },
-	  "35729": {
-		"protocol": "https",
-		"label": "LiveReload",
-		"onAutoForward": "silent",
-		"requireLocalPort": true
-	  }
+		"4321": {
+			"protocol": "https",
+			"label": "Manifest",
+			"onAutoForward": "silent",
+			"requireLocalPort": true
+		},
+		"35729": {
+			"protocol": "https",
+			"label": "LiveReload",
+			"onAutoForward": "silent",
+			"requireLocalPort": true
+		}
 	},
-	"postCreateCommand": "bash .devcontainer/on-create.sh",
-	"postAttachCommand": "bash .devcontainer/on-attach.sh",
-	"remoteUser": "node",
-	"workspaceMount": "source=${templateOption:volume},target=/workspace,type=volume",
-	"workspaceFolder": "/workspace"
-  }
+	"postAttachCommand": "bash .devcontainer/on-attach.sh"
+}

@@ -1,6 +1,6 @@
 {
     "id": "spfx-dev-container",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "name": "SPFx",
     "description": "A template for SharePoint Framework development.",
     "documentationURL": "https://github.com/tpalacino/SPFx-dev-container/tree/main/src/spfx-dev-container",
@@ -8,26 +8,25 @@
     "options": {
         "name": {
             "type": "string",
-            "description": "The name of the container:",
+            "description": "The name of the container",
             "default": "SPFx"
-        },
-        "volume": {
-            "type": "string",
-            "description": "The name of the volume:",
-            "default": "spfx"
         },
         "version": {
             "type": "string",
-            "description": "The version of SharePoint Framework the project will use:",
+            "description": "The version of SharePoint Framework the project will use",
             "proposals": [
+                "latest",
+                "online",
+                "1.20.0",
+                "1.19.0",
                 "1.18.2",
                 "1.18.1",
-                "1.18",
+                "1.18.0",
                 "1.17.4",
                 "1.17.3",
                 "1.17.2",
                 "1.17.1",
-                "1.17"
+                "1.17.0"
             ],
             "default": "latest"
         }
