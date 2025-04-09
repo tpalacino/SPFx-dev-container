@@ -4,7 +4,7 @@ if [ -f package.json ]; then
   npm install --no-audit
 fi
 
-if command -v "gulp -v" >/dev/null 2>&1 && [ ! -f spfx-dev-cert.cer ]; then
+if command -v "gulp" >/dev/null 2>&1 && [ ! -f spfx-dev-cert.cer ]; then
   ## commands to create dev certificate and copy it to the root folder of the project
   echo
   echo -e "\e[1;94mGenerating dev certificate\e[0m"
